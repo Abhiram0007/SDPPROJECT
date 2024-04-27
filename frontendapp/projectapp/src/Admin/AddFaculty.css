@@ -1,0 +1,58 @@
+/* AddFaculty.css */
+
+.container {
+  /* styles for the container div */
+  width: 500px;
+  margin: 50px auto;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h3 {
+  /* styles for the heading */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.success-message,
+.error-message {
+  /* styles for message elements */
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.success-message {
+  color: green;
+}
+
+.error-message {
+  color: red;
+}
+
+label {
+  /* styles for labels */
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  /* styles for input fields */
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+button[type="submit"] {
+  /* styles for submit button */
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

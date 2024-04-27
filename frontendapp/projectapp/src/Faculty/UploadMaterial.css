@@ -1,0 +1,45 @@
+.upload-material-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .upload-material-container h3 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .upload-material-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .upload-material-container label {
+    margin-bottom: 5px;
+  }
+  
+  .upload-material-container input[type="text"],
+  .upload-material-container input[type="file"],
+  .upload-material-container button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .upload-material-container button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .upload-material-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .upload-material-container h4 {
+    text-align: center;
+  }
+  

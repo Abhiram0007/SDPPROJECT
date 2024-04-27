@@ -1,0 +1,24 @@
+.primary-nav {
+    display: flex;
+    justify-content: center;
+    position: sticky; /* This makes the navbar sticky */
+    background-color: #1ce3d6;
+    padding: 10px;
+}
+
+.primary-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    position: sticky; /* This is not necessary for the links */
+}
+
+.primary-nav a:hover {
+    text-decoration: underline;
+    /* This part doesn't need position: sticky; */
+}
+
+.primary-nav a.active {
+    font-weight: bold;
+    /* This part doesn't need position: sticky; */
+}

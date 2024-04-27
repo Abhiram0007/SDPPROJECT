@@ -1,0 +1,43 @@
+.faculty-login-container {
+  width: 300px;
+  margin:  20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.faculty-login-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.faculty-login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.faculty-login-container label {
+  margin-bottom: 5px;
+}
+
+.faculty-login-container input {
+  width: 100%; /* Set width to 100% */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.faculty-login-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.faculty-login-container button:hover {
+  background-color: #0056b3;
+}
